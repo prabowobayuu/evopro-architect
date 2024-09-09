@@ -92,6 +92,7 @@
     height: 650px;
     max-width: 600px;
     width: 100%;
+    margin-bottom: -100px;
 }
 
 .hero-2 {
@@ -115,6 +116,7 @@
     justify-content: center;
     /* Menyebarkan konten dengan jarak antara elemen */
     position: relative;
+    
 }
 
 .hero-2 div {

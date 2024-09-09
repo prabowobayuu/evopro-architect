@@ -7,18 +7,19 @@
     text-decoration: none;
 }
 
-body {
-    max-width: 600px;
-    width: 100%;
-    margin: 0 auto;
-    font-family: 'Poppins', sans-serif;
-    background-color: white;
-    color: black;
+@media (max-width: 600px) {
+    body {
+        max-width: 600px;
+        width: 100%;
+        margin: 0 auto;
+        font-family: 'Poppins', sans-serif;
+        background-color: white;
+        color: black;
+    }
 }
 
 .konten {
     height: 650px;
-    max-width: 600px;
     width: 100%;
 }
 
@@ -69,17 +70,12 @@ body {
 }
 
 .konten h1 {
-    font-size: 80px;
-}
-
-.konten h2 {
-    font-size: 80px;
-    /* Ukuran font untuk h2 bisa disesuaikan */
+    font-size: 52px;
 }
 
 .jasa {
     font-size: 2em;
-    font-weight: 700;
+    font-weight: 400;
     background-color: #c4c4c4;
     color: rgb(0, 0, 0);
     padding: 20px;

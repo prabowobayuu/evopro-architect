@@ -16,10 +16,10 @@ body {
     color: black;
 }
 
-.konten{
+.konten {
     height: 650px;
     max-width: 600px;
-    width: 600px;
+    width: 100%;
 }
 
 /* hero style */
@@ -28,32 +28,44 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 100%; /* Tinggi hero sebesar tinggi viewport */
-    width: 100%; /* Lebar hero mengikuti lebar layar */
-    max-width: 600px; /* Maksimum lebar hero */
-    margin: 0 auto;/*  Agar hero berada di tengah secara horizontal */
+    height: 100%;
+    /* Tinggi hero sebesar tinggi viewport */
+    width: 100%;
+    /* Lebar hero mengikuti lebar layar */
+    max-width: 600px;
+    /* Maksimum lebar hero */
+    margin: 0 auto;
+    /*  Agar hero berada di tengah secara horizontal */
     display: flex;
-    flex-direction: column; /* Mengatur konten secara vertikal */
-    align-items: center; /* Menyelaraskan konten secara horizontal di tengah */
-    justify-content: center; /* Menyebarkan konten dengan jarak antara elemen */
-    
+    flex-direction: column;
+    /* Mengatur konten secara vertikal */
+    align-items: center;
+    /* Menyelaraskan konten secara horizontal di tengah */
+    justify-content: center;
+    /* Menyebarkan konten dengan jarak antara elemen */
+
     position: relative;
 }
 
 .hero .konten {
-    text-align: center; /* Menyelaraskan teks di dalam konten ke tengah */
-    color: #000000; /* Warna teks utama */
+    text-align: center;
+    /* Menyelaraskan teks di dalam konten ke tengah */
+    color: #000000;
+    /* Warna teks utama */
 }
 
-.hero .konten h1, .hero .konten h2 {
-    text-shadow: 
-        -3px -3px 0 #fff,  
+.hero .konten h1,
+.hero .konten h2 {
+    text-shadow:
+        -3px -3px 0 #fff,
         3px -3px 0 #fff,
         -3px 3px 0 #fff,
-        3px 3px 0 #fff; /* Membuat outline berwarna putih */
+        3px 3px 0 #fff;
+    /* Membuat outline berwarna putih */
     line-height: 1.2;
-    
-    margin: -10px 0; /* Jarak antar elemen teks */
+
+    margin: -10px 0;
+    /* Jarak antar elemen teks */
 }
 
 .konten h1 {
@@ -61,7 +73,8 @@ body {
 }
 
 .konten h2 {
-    font-size: 80px; /* Ukuran font untuk h2 bisa disesuaikan */
+    font-size: 80px;
+    /* Ukuran font untuk h2 bisa disesuaikan */
 }
 
 .jasa {
@@ -71,14 +84,16 @@ body {
     color: rgb(0, 0, 0);
     padding: 20px;
     /* Jarak vertikal di sekitar paragraf */
-    width: 600px; /* Membuat paragraf mengikuti lebar konten */
-    text-align: center; /* Menyelaraskan teks di dalam paragraf ke tengah */
+    width: 100%;
+    /* Membuat paragraf mengikuti lebar konten */
+    text-align: center;
+    /* Menyelaraskan teks di dalam paragraf ke tengah */
 }
 
 .konten-2 {
-height: 650px;
-max-width: 600px;
-width: 600px;
+    height: 650px;
+    max-width: 600px;
+    width: 600px;
 }
 
 .hero-2 {
@@ -86,14 +101,21 @@ width: 600px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 100%; /* Tinggi hero sebesar tinggi viewport */
-    width: 100%; /* Lebar hero mengikuti lebar layar */
-    max-width: 600px; /* Maksimum lebar hero */
-    margin: 0 auto;/*  Agar hero berada di tengah secara horizontal */
+    height: 100%;
+    /* Tinggi hero sebesar tinggi viewport */
+    width: 100%;
+    /* Lebar hero mengikuti lebar layar */
+    max-width: 600px;
+    /* Maksimum lebar hero */
+    margin: 0 auto;
+    /*  Agar hero berada di tengah secara horizontal */
     display: flex;
-    flex-direction: column; /* Mengatur konten secara vertikal */
-    align-items: center; /* Menyelaraskan konten secara horizontal di tengah */
-    justify-content: center; /* Menyebarkan konten dengan jarak antara elemen */
+    flex-direction: column;
+    /* Mengatur konten secara vertikal */
+    align-items: center;
+    /* Menyelaraskan konten secara horizontal di tengah */
+    justify-content: center;
+    /* Menyebarkan konten dengan jarak antara elemen */
     position: relative;
 }
 

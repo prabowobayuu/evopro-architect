@@ -1,0 +1,49 @@
+@import url( 
+    "https://fonts.googleapis.com/css2?family=Lato&family=Roboto+Slab&family=Spartan:wght@400;700&display=swap"); 
+      
+            /* .containerfaq { 
+                position: absolute;
+                text-align: ;
+                margin-top: 30%; 
+                left: 50%; 
+                right: 50%; 
+                width: 100%; 
+                max-width: 600px;
+            }  */
+      
+            .h1faq { 
+                text-align: center; 
+                font-family: "Roboto Slab", serif; 
+                font-size: 40px; 
+            } 
+      
+            .lifaq { 
+                list-style: none; 
+                margin-bottom: 10px; 
+                padding: 15px; 
+                border-bottom: 2px solid #000000; 
+            } 
+      
+            .question { 
+                font-family: "Spartan", sans-serif; 
+                font-size: 20px; 
+                font-weight: 600; 
+                margin-bottom: 10px; 
+                position: relative; 
+                color: #000000; 
+            } 
+      
+            .icon-main { 
+                position: absolute; 
+                right: 0px; 
+                cursor: pointer; 
+            } 
+      
+            .non-active { 
+                display: none; 
+            } 
+      
+            .answer { 
+                font-size: 17px; 
+                font-family: "Spartan", sans-serif; 
+            }
